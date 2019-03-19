@@ -6,4 +6,4 @@ steps:
   image: golang
   commands:
   - go build
-  - ./drone-io-test
+  - go run main.go
